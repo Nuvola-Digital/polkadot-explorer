@@ -26,8 +26,8 @@ export function createWsEndpoints (t: TFunction = defaultT, firstOnly = false, w
     {
       info: 'Vola',
       providers: {
-        Vola: 'wss://rpc-testnet-0.volanetwork.io'
-        // Lzmz: 'wss://rpc.p3d.top'
+        VolaRPC00: 'wss://rpc-testnet-0.volanetwork.io',
+        VolaRPC01: 'wss://rpc-testnet-1.volanetwork.io'
       },
       text: 'Testnet',
       ui: {
